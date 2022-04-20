@@ -7,7 +7,7 @@ class Hw2_1KtTest {
     @Test
     fun checkLimits_ForMaestro_PrevTransferLess600_000() {
         val paymentMethod: String = "Maestro"
-        val previousTransfers: Int = 600_000
+        val previousTransfers: Int = 550_000
         val thisTransfer: Int = 10_000
 
         val result = checkLimits(
